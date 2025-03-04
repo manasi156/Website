@@ -1,4 +1,4 @@
-runtime: python39  # Define the Python version
+runtime: python313 # Define the Python version
 entrypoint: gunicorn -b :$PORT main:app  # Define how to start the app
 
 handlers:
